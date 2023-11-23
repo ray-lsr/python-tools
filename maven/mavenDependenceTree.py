@@ -5,8 +5,7 @@ from openpyxl import Workbook
 from openpyxl.utils import get_column_letter
 
 """
-pip install jinja2 pandas xlsxwriter
-1、请使用 mvnd dependency:tree > maventree.txt 将依赖输出到 maventree.txt
+
 主要用于将  mvn dependence:tree 输出的依赖项进行梳理，写入excel
 """
 

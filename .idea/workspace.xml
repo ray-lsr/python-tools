@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e621123d-509b-4e0e-b64e-c71deb47aeca" name="Changes" comment="" />
+    <list default="true" id="e621123d-509b-4e0e-b64e-c71deb47aeca" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,12 +74,24 @@
       <option name="presentableId" value="Default" />
       <updated>1700631776901</updated>
       <workItem from="1700631779478" duration="250000" />
-      <workItem from="1700632044108" duration="11787000" />
+      <workItem from="1700632044108" duration="12966000" />
     </task>
+    <task id="LOCAL-00001" summary="maven依赖树输出为excel工具完成">
+      <created>1700649450525</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700649450525</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="maven依赖树输出为excel工具完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="maven依赖树输出为excel工具完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -91,6 +105,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_tools$mavenDependenceTree.coverage" NAME="mavenDependenceTree Coverage Results" MODIFIED="1700649157100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/maven" />
+    <SUITE FILE_PATH="coverage/python_tools$mavenDependenceTree.coverage" NAME="mavenDependenceTree Coverage Results" MODIFIED="1700649176363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/maven" />
   </component>
 </project>
