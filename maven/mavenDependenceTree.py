@@ -11,6 +11,8 @@ from openpyxl.utils import get_column_letter
 
 pattern1 = r'\[[^\]]+\]'
 pattern2 = r"\+\-\s(.+)"
+# 添加过滤规则
+filter_rule = ['cn.sunline', 'SNAPSHOT']
 
 
 def comb_file(file):
@@ -18,7 +20,7 @@ def comb_file(file):
     with open(file, "r") as f:
         lines = f.readlines()
     for line in lines:
-        if ':jar:' in line and 'SNAPSHOT' not in line:
+        if ':jar:' in line and all(rule not in line for rule in filter_rule):
             # 获取到携带依赖的行内容
             new_line = re.sub(pattern1, '', line)
             match = re.search(pattern2, new_line)
